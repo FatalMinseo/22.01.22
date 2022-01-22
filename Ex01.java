@@ -1,4 +1,4 @@
-package Á¶°Ç¹®;
+package ì¡°ê±´ë¬¸;
 
 import java.util.Scanner;
 
@@ -6,22 +6,22 @@ public class Ex01 {
 
 	public static void main(String[] args) {
 
-		// Á¤´ä ¸ÂÃß±â
+		// ì •ë‹µ ë§ì¶”ê¸° 
 		int answer = 10;
 		
-		System.out.print("Á¤´äÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä >>");
+		System.out.print("ì •ë‹µì„ ì…ë ¥í•´ì£¼ì„¸ìš” >>");
 		
 		Scanner sc = new Scanner(System.in);
 		int user = sc.nextInt();
 		
-		// ¸¸¾à »ç¿ëÀÚ°¡ 10À» ÀÔ·ÂÇß´Ù¸é
-		// "Á¤´ä ÀÔ´Ï´Ù" Ãâ·Â ÈÄ "ÇÁ·Î±×·¥ Á¾·á" Ãâ·Â
-		// 10ÀÌ ¾Æ´Ï¶ó¸é "ÇÁ·Î±×·¥ Á¾·á" Ãâ·Â
+		// ë§Œì•½ ì‚¬ìš©ìê°€ 10ì„ ì…ë ¥í–ˆë‹¤ë©´
+		// "ì •ë‹µ ì…ë‹ˆë‹¤" ì¶œë ¥ í›„ "í”„ë¡œê·¸ë¨ ì¢…ë£Œ" ì¶œë ¥
+		// 10ì´ ì•„ë‹ˆë¼ë©´ "í”„ë¡œê·¸ë¨ ì¢…ë£Œ" ì¶œë ¥
 		
 		if(user == answer ) {
-			System.out.println("Á¤´äÀÔ´Ï´Ù");
+			System.out.println("ì •ë‹µì…ë‹ˆë‹¤");
 		}
-		System.out.println("ÇÁ·Î±×·¥ Á¾·á!");
+		System.out.println("í”„ë¡œê·¸ë¨ ì¢…ë£Œ!");
 		
 		
 		
